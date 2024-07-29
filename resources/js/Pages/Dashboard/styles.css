@@ -1,0 +1,53 @@
+
+.ql-container {
+    color: white;
+    border: none;
+  }
+  
+  .ql-editor {
+    background-color: #141E2C;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    min-height: auto;
+  }
+  
+  .ql-toolbar {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #555;
+    width: 100vh;
+  }
+  
+  .ql-toolbar .ql-picker {
+    color: white;
+  }
+  
+  
+  .ql-toolbar .ql-picker-options {
+    border: 0;
+    background-color: #141E2C;
+  }
+  
+  .ql-toolbar .ql-stroke {
+    stroke: white;
+  }
+  
+  .ql-toolbar .ql-fill {
+    fill: white;
+  }
+  
+  .ql-toolbar .ql-picker-label:hover,
+  .ql-toolbar .ql-picker-label.ql-active,
+  .ql-toolbar .ql-picker-item:hover,
+  .ql-toolbar .ql-picker-item.ql-selected {
+    color: #bbb;
+  }
+  .ql-container.ql-snow{
+    border: 0;
+  }
+  .ql-toolbar.ql-snow{
+    border: 0;
+    width: 100%;
+  }
